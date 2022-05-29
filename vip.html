@@ -2,7 +2,7 @@
 <!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
     <head>
-        <title>Minecraft地球都市 - 我的世界多人联机服务器</title>
+        <title>地球都市 - 充值中心</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <!--meta info-->
@@ -11,15 +11,15 @@
         <meta name="description" content="地球都市是Minecraft我的世界大型联机服务器,游戏版本为1.7-1.8,官方承诺永久免费不收费,并有丰富的玩法和精彩的活动等着你!">
         <link rel="icon" type="image/ico" href="static/images/fav.ico">
         <!--stylesheet include-->
-        <link rel="stylesheet" type="text/css" media="all" href="css/flexslider.css">
-        <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
-        <link rel="stylesheet" type="text/css" media="all" href="css/hover.css">
-		<link rel="stylesheet" href="css/8f1f8e2ada814a4b9a67a5b8f6eee5fe.css">
-		<script src="js/jquery-2.1.0.min.js"></script>
-		<script src="js/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="css/flexslider_3.css">
+        <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min_3.css">
+        <link rel="stylesheet" type="text/css" media="all" href="css/style_3.css">
+        <link rel="stylesheet" type="text/css" media="all" href="css/hover_3.css">
+		<link rel="stylesheet" href="css/eb1b9e257d274fa2aaac1bd5ba7d4edd.css">
+		<script src="js/jquery-2.1.0.min_3.js"></script>
+		<script src="js/jquery-ui.min_3.js"></script>
         <!--font include-->
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min_3.css" rel="stylesheet">
  
         <script type="text/javascript">
             var system = {
@@ -67,7 +67,7 @@
                     <div class="clearfix row">
                         <div class="col-lg-6 col-md-6 col-sm-4 t_xs_align_c">
                             <a href="index.php" class="logo m_xs_bottom_15 d_xs_inline_b">
-                                <img src="picture/logo.png" alt="">
+                                <img src="picture/logo_3.png" alt="">
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-8">
@@ -124,49 +124,384 @@
                         </ul>
                     </section>
                 </div>
-            </header>
-<!--slider with banners-->
-<section class="container">
+            </header> 
+<style>
+blockquote {
+background:#f9f9f9;
+border-left:4px solid #ccc;
+margin:0 10px;
+padding:.5em 10px;
+margin-left: -8px;
+line-height: 30px;
+quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	display:none;
+}
+blockquote p {
+display:inline;
+}
+
+.callout {
+    padding: 15px 18px;
+    margin: 12px 0;
+    border-left: 4px solid #eee;
+    background-color: #f9f9f9;
+    max-width: 100%;
+}
+.callout.note {
+    border-left-color: #A181AE;
+    background-color:  #ECF0F1;
+}
+.callout.note .callout-label {
+    color: #7D578C;
+}
+.callout-label {
+    display: block;
+    padding-bottom: 3px;
+}
+.callout p {
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.toc {
+    position: relative;
+    list-style: none;
+    padding: 50px 20px 20px 30px;
+    margin-top: 40px;
+    margin-left: -6px;
+    margin-bottom: 0;
+    line-height: 30px;
+    background-color: #ECF0F1;
+    counter-reset: b;
+    border-left: 4px solid #eee;
+    border-left-color: rgb(178,200,187);
+}
+.toc li {
+    display: list-item;
+	list-style-type: none;
+    text-align: -webkit-match-parent;
+}
+.toc a {
+    color: #888;
+    transition: .3s ease;
+}
+.toc ol {
+    list-style: none;
+    padding-left: 25px;
+    line-height: 23px;
+}
+.toc>li>ol {
+    counter-reset: c;
+}
+.toc:before {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    content: "【重要】充值完毕后";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	color: rgb(131,175,155);
+}
+.toctmp:before {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    content: "【国庆活动】十一国庆狂欢限时大放送";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	color: rgb(131,175,155);
+}
+.newcontainer {
+    outline: none;
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    margin-top: -5px;
+    margin-left: 250px;
+    background-color: rgb(232,221,203);
+    border-radius: 6px;
+    box-shadow: 0px 0px 24px rgba(0,0,0,0.4);
+	z-index:3;
+}
+.newcontainer:before {
+  content: '';
+  position: absolute;
+  left: -14px;
+  top: 28px;
+  border-style: solid;
+  border-width: 10px 14px 10px 0;
+  border-color: rgba(0, 0, 0, 0) rgb(232,221,203) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index:1;
+}
+.newcontainer p {
+  width: 350px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  float: left;
+  margin-left:25px;
+}
+.newcontainer h1 {
+  font-size: 25px;
+  font-weight: 100;
+  color: #2C2C2C;
+  margin: 20px 25px;
+}
+.newcontainer a {
+  text-decoration: none;
+  color: #3476CA;
+}
+.newcontainer a:hover {
+  color: #6CB5F3;
+}
+
+.close {
+  cursor: pointer;
+}
+.close:before,
+.close:after {
+  content: "";
+  position: absolute;
+  height: 13px;
+  width: 13px;
+  top: 26px;
+  right: 31px;
+  border-top: 2px solid #7c7c7c;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.close:before {
+  right: 40px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.main-sidebar-menu {
+    width: 250px;
+	height: 200px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.main-sidebar-menu li {
+    _height: 40px;
+    vertical-align: middle;
+	margin-left:-15px;
+}
+.text-center {
+    text-align: center;
+}
+.main-sidebar-menu li .payinfotitle {
+    line-height: 30px;
+    padding: 15px 14px 0px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    _height: 25px;
+}
+.main-sidebar-menu .payment-list li {
+    line-height: 1;
+}
+.payment-list li .payment {
+	position: relative;
+	padding: 0 0 0 42px;
+	height: 20px;
+	background-image: url(images/btn2.png);
+	background-repeat: no-repeat;
+}
+#alibank{background-position:16px -119px}
+#alipay{background-position:16px -159px}
+#weixin{background-position:16px -439px}
+#aliinte{background-position:16px -399px}
+#szx{background-position:16px -199px}
+#dianxin{background-position:16px -239px}
+#liantong{background-position:16px -279px}
+#yikatong{background-position:16px -319px}
+#liquan{background-position:16px -359px}
+.button.download-button {
+    min-width: 230px;
+    height: 64px;
+    background-color: #666666;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float: left;
+    margin: 0 0 0 12px;
+    padding: 10px 16px 0 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: background-color 200ms cubic-bezier(0.4, 0, 1, 1);
+    -moz-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+    -ms-transition: background-color 200ms ease-in-out;
+    text-align: left;
+}
+.button.download-button.red:hover {
+    background-color: rgba( 217,0,7,1);
+}
+.button.download-button:first-child {
+    margin: 0;
+}
+.red {
+    color: #BF1900;
+}
+.button.download-button.red {
+    background-color: rgba( 217,0,7,0.7);
+}
+.button.download-button.red:hover {
+    background-color: rgba( 217,0,7,1);
+}
+.download.info-txt.big-txt {
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333;
+}
+.download.info-txt.white {
+    color: white;
+}
+li {
+	list-style-type:none;
+}
+</style>
+
+<div class="container">
     <div class="row clearfix">
-        <!--slider-->
-        <div class="col-lg-9 col-md-9 col-sm-9 m_xs_bottom_30">
-            <div class="flexslider animate_ftr long">
-                <ul class="slides">
-                    <li>
-                        <img src="picture/slide_01.jpg" alt="">
-                        <section class="slide_caption t_align_c d_xs_none">
-                            <div class="f_size_large color_light tt_uppercase slider_title_3 m_bottom_10">Welcome</div>
-                            <hr class="slider_divider d_inline_b m_bottom_10">
-                            <div class="color_light slider_title_4 tt_uppercase t_align_c m_bottom_15 m_md_bottom_20"><b> </b><b class="scheme_color">新</b>学期<b>来临</b></div>
-                            <div class="color_light slider_title_4 tt_uppercase t_align_c m_bottom_45 m_md_bottom_20"><b>让</b><b class="scheme_color">地球都市</b>伴您同行</div>
-                            <a href="index.php?page=about" role="button" class="d_sm_inline_b button_type_4 bg_scheme_color color_light r_corners tt_uppercase tr_all_hover">下载游戏</a>
-                        </section>
-                    </li>
-                    <li>
-                        <img src="picture/slide_02.jpg" alt="">
-                        <section class="slide_caption_2 t_align_c d_xs_none">
-                            <div class="f_size_large tt_uppercase slider_title_3 scheme_color">NEWS</div>
-                            <hr class="slider_divider type_2 m_bottom_5 d_inline_b">
-                            <div class="color_light slider_title_4 tt_uppercase t_align_c m_bottom_15 m_sm_bottom_20"><b class="scheme_color">玩了一年地球都市后</b></div>
-                            <div class="color_light slider_title_4 tt_uppercase t_align_c m_bottom_65 m_sm_bottom_20"><b>头不疼眼不酸脑不胀</b></div>
-                            <a href="index.php?page=about" role="button" class="d_sm_inline_b button_type_4 bg_scheme_color color_light r_corners tt_uppercase tr_all_hover">火速下载</a>
-                        </section>
-                    </li>
-                    <li>
-                        <img src="picture/slide_03.jpg" alt="">
-                        <section class="slide_caption_3 t_align_c d_xs_none"> 
-                            <div class="f_size_large color_dark tt_uppercase slider_title_3 m_bottom_10">《地球都市的神奇之处》</div>
-                            <hr class="slider_divider d_inline_b m_bottom_10">
-                            <div class="color_light slider_title_4 tt_uppercase t_align_c m_bottom_15 m_md_bottom_20"><b>邻居家小明自从玩了地球都市后</b></div>
-                            <div class="color_light slider_title_4 tt_uppercase t_align_c m_bottom_15 m_md_bottom_20"><b>成绩像开了挂一样变成全校第一</b></div>
-                            <div class="color_light slider_title_4 tt_uppercase t_align_c m_bottom_15 m_md_bottom_20"><b>啪啪啪也特别持久比嗑药还管用</b></div>
-                            <div class="color_light slider_title_4 tt_uppercase t_align_c m_bottom_15 m_md_bottom_20"><b>打英雄联盟再也没连跪直冲王者</b></div>
-                        </section>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        ﻿<style>
+
+        <section class="col-lg-9 col-md-9 col-sm-9">
+            <figure class="widget shadow r_corners wrapper m_bottom_30">
+                <figcaption>
+                    <h3 class="color_light">游戏充值 大吉大利，今晚氪金!</h3>
+                </figcaption>
+                <div class="widget_content">
+			<div class="col-md-12 well">
+			<div style="width:100%;">
+			<ul class="main-sidebar-menu" style="float:left;position: relative;">
+				<li class="text-center">
+				<div class="payinfotitle">
+					<img src="picture/pay-mcraft.png" alt="魔方点券">
+				</div>                    
+				</li>
+                <li class="service-contact">
+					<div style="font-style: '微软雅黑';color:#666;text-shadow:0px 0px 1px white, 0px 0px 5px white;text-align:center;">10点券=1元</div>
+					<div style="font-style:'微软雅黑';text-shadow:0px 0px 1px white, 0px 0px 5px white;margin-top:15px;">点券是游戏中专有的一种虚拟货币，可以用点券购买游戏商城内的任何道具与其他的一些增值服务。</div>
+				</li>
+			</ul>
+			<ul class="main-sidebar-menu payment-list" style="margin-left:500px;">
+				<div style="margin-left:-220px;padding-top:30%">
+					<h4>首先确定您的捐助方式▶</h4>
+				</div>
+				<div style="margin-top:-38%">
+					<h5>我们支持以下捐助方式：</h5>
+					<li><span id="alipay" class="payment btn-block">支付宝</span><font color="green" style="float:right">✔</font></li>
+					<li><span id="alibank" class="payment btn-block ">网上银行</span><font color="green" style="float:right">✔</font></li>
+					<li><span id="weixin" class="payment btn-block ">微信扫码</span><font color="green" style="float:right">✔</font></li>
+					<li><span id="szx" class="payment btn-block ">移动卡(神州行)</span><font color="green" style="float:right">✔</font></li>
+					<li><span id="dianxin" class="payment btn-block ">电信卡</span><font color="green" style="float:right">✔</font></li>
+					<li><span id="liantong" class="payment btn-block ">联通卡</span><font color="green" style="float:right">✔</font></li>
+					<li><span id="yikatong" class="payment btn-block ">一卡通</span><font color="green" style="float:right">✔</font></li>
+				</div>
+			</ul>
+			</div>
+		   
+              <p>
+                <div class="lol" style="margin-top:25px;margin-bottom:90px;margin-left:130px">
+					<a href="http://w.waayj.cn/GOhDwc/hDwc98" target="_blank" onmouseover="$('.newcontainer').css({display:'block'}),$('.lol').css({'margin-bottom':'150px'});" onmouseout="$('.newcontainer').css({display:'none'}),$('.lol').css({'margin-bottom':'50px'});">
+					<div class="button download-button red to-computer">
+						<div style="float:left;height:80%;width:30px;margin-right:3px;border-right:1px solid #fff" class="download info-txt white">
+							<i class="fa fa-jpy fa-3x" style="margin-left:-5px;margin-top:13px"></i>
+						</div>
+						<div>
+							<div class="download info-txt big-txt white"><center>立即充值</center></div> 
+							<div class="download info-txt mid-txt white"><center>赞助地球都市</center></div>
+						</div>
+					</div>
+					</a> 
+
+				</div>
+			  </p>
+		   
+              <div align="center" style="padding-top:50px"><br><br></div>
+			  
+					<fieldset>
+					<div class="callout note">
+						<strong class="callout-label">充值前注意事项- ( ゜- ゜)つロ</strong>
+						<p>充值平台已经更换请注意!!!</p>
+						<p>充值完成会获得卡密 请到登录大厅去激活[详细帮助看下面]</p>
+						<p></p>
+						<p><img src="picture/0060lm7tgy1fdgsixnml1j30o70a9dh3.jpg"></p>
+					</div>
+					</fieldset>
+					
+                <blockquote>
+					<li>充值流程：</li> 
+					<li><font color="red">①</font>进入充值网站选择充值面额</li> 
+					<li><font color="red">②</font>选择付款方式进行充值</li> 
+					<li><font color="red">③</font>充值完毕获得卡密</li> 
+					<li><font color="red">④</font>游戏内登录大厅服使用“<font color="red">/jhm use 获得卡密</font>” 进行激活</li> 
+					<li><font color="red">⑤</font>打开点券商城买买买</li>
+                </blockquote>
+			  
+				<ol class="toc">
+				<li>
+					进入服务器登陆后->开聊天栏输入指令->打开聊天栏输入指令
+					<ol>
+					<li><font color="red">/jhm use <strong><u>卡密</u></strong></font></li>
+					<li>卡密就是一串神秘代码，比如我的<font color="red"><strong><u>339938184676-0008-17CTTEE7H</u></strong></font></li>
+					<li>所以我在游戏输入<font color="red">/jhm use <strong><u>339938184676-0008-17CTTEE7H</u></strong></font></li>
+					<li>（当然以上的卡号和卡密我已经使用过了）</li>
+					</ol>
+				</li>
+				<li>激活成功后，输入指令<font color="red">/points me</font> 查看自己的金子点券余额</li>
+				<li>到账即为<strong><u>充值成功</u></strong><font color="green">✔</font></li>
+				</ol>
+			
+				<p>&nbsp;</p>
+				<h3>&nbsp;</h3>
+			  </div>
+					
+					<div style="padding: 10px;">
+					<fieldset>
+					<div class="callout note">
+						<strong class="callout-label">注意事项◆</strong>
+						<p>游戏内卖点券/游戏币币的都是骗子，请不要相信，以免上当受骗。</p>
+						<p>服主QQ：1084935854，充值遇到问题请及时联系管理。</p>
+						<p>充值结束后如果对订单结果有疑问请记住订单ID，咨询服主。</p>
+						<p>玩家充值成功以后在服务器内查询金子余额。</p>
+						<p>金子可在服务器快捷商城购买会员或游戏道具。</p>
+					</div>
+					</fieldset>
+					
+					<div><p>&nbsp;&nbsp;&nbsp;</p></div>
+					<div><p>&nbsp;&nbsp;&nbsp;</p></div>
+					
+			 
+					<!--<div><p>&nbsp;&nbsp;&nbsp;</p></div>
+					<div><p>&nbsp;&nbsp;&nbsp;</p></div>
+					<div><p>&nbsp;&nbsp;&nbsp;</p></div>
+					
+					<center>↓↓↓查看VIP福利权限点击图片↓↓↓</center>
+					<a href="/vip/vip.html" target="_blank"><img src="picture/vip.jpg"><p>&nbsp;</p></a>
+					<a href="http://www.917ka.com/list/7auc" target="_blank"><img src="picture/xingyun.png"><p>&nbsp;</p></a>
+					<a href="http://www.917ka.com/list/7auc" target="_blank"><img src="picture/vip-2.jpg"></a>
+					<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                </div>
+            </figure>
+        </section>
+
+﻿<style>
 .newslists {font-size:14px;margin-left:8px;padding:10px 3px 3px 0;}
 .newslists .nl-i{position:relative;margin:0 5px 5px;*float:left;*zoom:1;*width:auto;height:30px;}
 .newslists .cltag{position:absolute;left:0;color:#fff;background-color: #E74C3C;border-radius: 3px;height:auto;width:40px;text-align:center;}
@@ -177,11 +512,11 @@
 
 .snav{width:100%;height:188px;overflow:hidden;background-color:#fff;}
 .snav a{display:block;height:100%;text-align:center;-webkit-transition:all .3s ease-out 0s;transition:all .3s ease-out 0s;text-decoration: none;}
-.snav .topbig{height:187px; background:url(images/dl.png); background-position:-25px 15px;background-repeat:no-repeat;}
+.snav .topbig{height:187px; background:url(images/dl_3.png); background-position:-25px 15px;background-repeat:no-repeat;}
 .snav .g1{width:100%;background-color:#6bc235;border-radius:4px;}
 .snav .topbig a{background:#fff;opacity:0;filter:alpha(opacity=0);_background:transparent;text-indent:-9999px;}
 .pa{position:absolute;}
-.btn-rp{width:100%;height:100%;background:url(images/btn_rp.png) repeat;top:0;left:0;}
+.btn-rp{width:100%;height:100%;background:url(images/btn_rp_2.png) repeat;top:0;left:0;}
 </style>
 
 <aside class="col-lg-3 col-md-3 col-sm-3 s_banners m_bottom_20">
@@ -205,7 +540,7 @@
 
 </aside>
     </div>
-</section>
+</div>
 ﻿<!--content-->
 <div class="page_content_offset" style="padding:0">
     <div class="container">
@@ -213,7 +548,7 @@
         <section class="row clearfix">
             <div class="col-lg-6 col-md-6 col-sm-6 m_bottom_50 m_sm_bottom_35" onmouseover="$('.sbqqa').css({color:'#e74c3c'}),$('.sbqqb').css({color:'#fff'});" onmouseout="$('.sbqqa').css({color:'#fff'}),$('.sbqqb').css({color:'#e74c3c'});">
                 <a href="?page=guide" class="d_block banner animate_ftr wrapper r_corners relative m_xs_bottom_30">
-                    <img src="picture/banner_img_1.jpg" alt="" width="100%">
+                    <img src="picture/banner_img_1_3.jpg" alt="" width="100%">
                     <span class="banner_caption d_block vc_child t_align_c w_sm_auto">
                         <span class="d_inline_middle">
                             <span class="d_block scheme_color banner_title type_1 m_bottom_5 m_mxs_bottom_5 sbqqb"><b>新手教学</b></span>
@@ -227,7 +562,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 m_bottom_50 m_sm_bottom_35" onmouseover="$('.sbqqc').css({color:'#e74c3c'}),$('.sbqqd').css({color:'#fff'});" onmouseout="$('.sbqqc').css({color:'#fff'}),$('.sbqqd').css({color:'#e74c3c'});">
                 <a href="?page=vip" class="d_block banner animate_ftr wrapper r_corners type_2 relative">
-                    <img src="picture/banner_img_2.jpg" alt="" width="100%">
+                    <img src="picture/banner_img_2_3.jpg" alt="" width="100%">
                     <span class="banner_caption d_block vc_child t_align_c w_sm_auto">
                         <span class="d_inline_middle">
                             <span class="d_block scheme_color banner_title type_2 m_bottom_5 m_mxs_bottom_5 sbqqd"><b>充值</b></span>
@@ -267,10 +602,10 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 m_xs_bottom_30">
                     <h3 class="color_light_2 m_bottom_20">服务器地址</h3>
                     <ul class="vertical_list">
-                        <li><a href="?page=about" class="color_light tr_delay_hover" href=""><img src="picture/world.png" alt="">&nbsp; &nbsp;mc.mfcraft.cn</i></a></li>
-                        <li><a class="color_light tr_delay_hover" href=""><img src="picture/world.png" alt="">&nbsp; &nbsp;dx.mfcraft.cn</i></a></li>
-                        <li><a class="color_light tr_delay_hover" href=""><img src="picture/world.png" alt="">&nbsp; &nbsp;wt.mfcraft.cn</i></a></li>
-                        <li><a class="color_light tr_delay_hover" href=""><img src="picture/world.png" alt="">&nbsp; &nbsp;敬请期待</i></a></li>
+                        <li><a href="?page=about" class="color_light tr_delay_hover" href=""><img src="picture/world_3.png" alt="">&nbsp; &nbsp;mc.mfcraft.cn</i></a></li>
+                        <li><a class="color_light tr_delay_hover" href=""><img src="picture/world_3.png" alt="">&nbsp; &nbsp;dx.mfcraft.cn</i></a></li>
+                        <li><a class="color_light tr_delay_hover" href=""><img src="picture/world_3.png" alt="">&nbsp; &nbsp;wt.mfcraft.cn</i></a></li>
+                        <li><a class="color_light tr_delay_hover" href=""><img src="picture/world_3.png" alt="">&nbsp; &nbsp;敬请期待</i></a></li>
                     </ul>
                 </div>
                
@@ -317,9 +652,9 @@
 
 <button class="t_align_c r_corners type_2 tr_all_hover animate_ftl" id="go_to_top"><i class="fa fa-angle-up"></i></button>
 <!--no can no bb-->
-<script src="js/retina.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/scripts.js"></script>
+<script src="js/retina_3.js"></script>
+<script src="js/jquery.flexslider-min_3.js"></script>
+<script src="js/waypoints.min_3.js"></script>
+<script src="js/scripts_3.js"></script>
 </body>
 </html>
